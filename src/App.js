@@ -6,7 +6,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch('http://52.172.217.19:3000/api/save', {
+    const res = await fetch('http://4.247.129.119:3000/api/save', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name })
